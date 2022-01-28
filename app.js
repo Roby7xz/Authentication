@@ -79,7 +79,7 @@ app.post("/login", function (req, res) {
             bcrypt.compare(checkUser.password, foundUser.password, function (err, result) {
 
                 if (result === true) {
-                    res.render("secrets");
+                    res.render("fsfssf");
                 }
 
             });
